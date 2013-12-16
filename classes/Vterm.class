@@ -1,0 +1,19 @@
+<?php
+
+class Vterm {
+  
+  public function open() {
+    print '<div id="vterm"><ul>';
+  }
+  
+  public function log($message) {
+    print '<li><div class="vterm-prompt">vt:~$</div> <div class="vterm-message">' . $message . '</div></li>';
+  }
+  
+  public function close() {
+    print '</ul></div>';
+  }
+  
+}
+
+?>

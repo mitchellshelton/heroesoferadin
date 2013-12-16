@@ -1,0 +1,136 @@
+# Heroes of Eradin Game
+
+> Iteration one should be as basic as possible. Only what is absolutely needed to make the game playable. Additional party members, actual exploration, crafting, character ability management and other additions will come later.
+
+> Balancing and combat is done via an elemental system. Character will deal more damage in their chosen element. Classes also provide a specific elemental bonus (although less prominent). Characters can not die, they only become "injured" as a status and return to camp where they must heal.
+
+> Progression is done via levels and not exploration (for now).
+
+> There is no storyline (for now)
+
+> Programming:
+Treat as a command line application in PHP for now. Unity is an eventual target platform for a future graphics heavy version so object oriented programming will be required.
+
+## Start Screen
+
+- New
+
+Create a new entry in the save game database
+Go to Character Creation screen
+
+- Load
+
+Check for and select a save game from the database
+When loaded go to Inn Screen
+
+- About
+
+Credits
+
+## Character Creation Screen
+
+- Select gender
+
+Male
+Female
+
+- Select class
+
+Warrior - physical combat class (earth)
+Ranger - ranged combat class (air)
+Mage - ranged magic class (fire)
+Cleric - ranged healer class (water)
+
+- Select element
+
+Characters are more resistant to this element of attack and also gain more powerful attacks in this element
+
+Fire
+Water
+Sky
+Earth
+
+## Inn Screen
+
+- Explore
+
+Go to Explore Screen
+
+- Store
+
+Go to Store Screen
+
+- Inventory
+
+Go to Inventory Screen
+
+- Equipment
+
+Go to Equipment Screen
+
+# Store Screen
+
+- Buy
+
+List store inventory
+Select item to see cost and stats
+Buy item
+
+- Sell
+
+List character inventory
+Select item to see sale value
+Sell item
+
+- Leave
+
+Go to Inn Screen
+
+# Inventory Screen
+
+- View Item
+
+Display the item with a description
+
+- Select Item
+
+Highlight the item for use on another item
+
+- Use selected item on...
+
+Use the highlighted item on this item
+Forms another item, uses up an item, or does nothing
+
+- Close
+
+Go to Inn Screen
+
+# Equipment Screen
+
+Paper Doll Interface
+Click on slot to view list of available equipment
+Selecting equipment lists stats and compares to currently equipped item
+
+## Explore Screen
+
+- Fight
+
+When characters click explore the automatically go to the combat screen with a monster
+Characters have four attacks, use item, and flee options in combat
+
+Combat Options:
+
+- Fire Attack
+- Water Attack
+- Air Attack
+- Ground Attack
+
+Attacks are abilities that characters learn as they level up. These abilities are automatic and each is from a different family (fire, water, sky, earth) and impacts enemies differently (based on their defense family).
+
+- Use Item
+
+Use an item to cure a condition (antidote) or heal (potion)
+
+- Flee
+
+Go to Inn Screen
