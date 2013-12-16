@@ -36,10 +36,10 @@ Female
 
 - Select class
 
-Warrior - physical combat class (earth)
-Ranger - ranged combat class (air)
-Mage - ranged magic class (fire)
-Cleric - ranged healer class (water)
+Warrior - physical combat class (Earth)
+Ranger - ranged combat class (Air)
+Mage - ranged magic class (Fire)
+Cleric - ranged healer class (Water)
 
 - Select element
 
@@ -47,7 +47,7 @@ Characters are more resistant to this element of attack and also gain more power
 
 Fire
 Water
-Sky
+Air
 Earth
 
 ## Inn Screen
@@ -123,13 +123,19 @@ Combat Options:
 - Fire Attack
 - Water Attack
 - Air Attack
-- Ground Attack
+- Earth Attack
 
-Attacks are abilities that characters learn as they level up. These abilities are automatic and each is from a different family (fire, water, sky, earth) and impacts enemies differently (based on their defense family).
+Attacks are abilities that characters learn as they level up. These abilities are automatic and each is from a different family (fire, water, air, earth) and impacts enemies differently (based on their defense family).
 
 - Use Item
 
 Use an item to cure a condition (antidote) or heal (potion)
+
+Conditions:
+Fire - Burned
+Water - Frozen
+Air - Poisoned
+Earth - Paralyzed
 
 - Flee
 
