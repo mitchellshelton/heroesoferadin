@@ -1,6 +1,7 @@
 # Application specific #
 ###################
 /documentation
+documentation/*
 
 # Compiled source #
 ###################
