@@ -3,61 +3,36 @@
   Sitename: http://www.heroesoferadin.com/
   Author: Mitchell R.K. Shelton
 
-  styles.css
-  Main styles for Heroes of Eradin.
+  style.css
+  Primary styles for site.
 */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~ Core ~ */
+/* ~ Main ~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~ */
-body {
-  margin: 0px;
-  background-color: #eee;
-  color: #fff;
-}
-#container {
+#header, #footer, #container {
   margin: 0px auto;
-  width: 960px;
+  max-width: 1024px;
+  width: 98%;
 }
-ul {
+.button-menu {
+  list-style-type: none;
   margin: 0px;
   padding: 0px;
-}
-li {
-  list-style: none;
-}
-a {
-  color: #000;
-}
-.button {
-  border: 1px solid #ccc;
-  background-color: #999;
-  padding: 5px;
-  display: block;
   text-align: center;
-  width: 100%;
 }
-.button a:link {
-  text-decoration: none;
+a.button {
+  min-width: 200px;
+  width: 90%;
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~ VTerm ~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
-#vterm {
-  font-family: monospace;
-  margin: 5px auto;
-  background-color: #000;
-  max-width: 600px;
-  width: 100%;
-  border: 2px solid #fff;
-  padding: 10px;
-}
-.vterm-prompt {
-  color: #090;
-  display: inline;
-}
-.vterm-message {
+a.button.auto {
+  background: #900;
   color: #fff;
-  display: inline;
+  text-shadow: rgb(121, 121, 121) 0 1px 1px;
+}
+a.button.auto:hover {
+  background: #600;
 }

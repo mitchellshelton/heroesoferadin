@@ -11,6 +11,83 @@
 > Programming:
 Treat as a command line application in PHP for now. Unity is an eventual target platform for a future graphics heavy version so object oriented programming will be required.
 
+---
+
+## 1st iteration
+
+> Just the screens. A clickable interface that can be navigated through and provides all of the basic screens. No real actions are taken. A second immediate iteration might be function calls to empty functions for related actions.
+
+_Start_
+
+  - New -> _Character Creation_
+  - Load -> load function -> _Inn_
+  - About -> _About_
+
+_About_
+
+  - Text
+  - Return to Start Screen -> _Start_
+
+_Character Creation_
+
+  - Gender
+    - Male
+    - Female
+  - Class
+    - Warrior - physical combat class (Earth)
+    - Ranger - ranged combat class (Air)
+    - Mage - ranged magic class (Fire)
+    - Cleric - ranged healer class (Water)
+  - Element
+    - Fire
+    - Water
+    - Air
+    - Earth
+  - Name
+    - Text entry
+  - Confirm
+    - save function -> load function -> _Inn_
+_Inn_
+
+  - Explore -> _Explore_
+  - Store -> _Store_
+  - Inventory -> _Inventory_
+  - Equipment -> _Equipment_
+  - Save and Quit -> save function -> _Start_
+
+_Store_
+
+  - Buy -> *
+  - Sell -> *
+  - Leave -> _Inn_
+
+_Inventory_
+
+  - View -> *
+  - Select -> *
+  - Use -> *
+  - Close -> _Inn_
+
+_Equipment_
+
+  - Paper Doll -> * (wtf does this mean? How does this work in a text only env?)
+  - Close -> _Inn_
+
+_Explore_
+
+  - Fight
+    - Fire Attack
+    - Water Attack
+    - Air Attack
+    - Earth Attack
+  - Use -> *
+  - Flee -> _Explore_
+  - Return to Inn -> _Inn_
+
+* = complex items to be skipped in first and second iterations
+
+---
+
 ## Start Screen
 
 - New

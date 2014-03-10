@@ -1,3 +1,7 @@
+# Application specific #
+###################
+documentation/
+
 # Compiled source #
 ###################
 *.com
